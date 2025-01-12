@@ -3,7 +3,7 @@
 ![Build Status](https://github.com/pkinney/term_stream/actions/workflows/ci.yaml/badge.svg)
 [![Hex.pm](https://img.shields.io/hexpm/v/term_stream.svg)](https://hex.pm/packages/term_stream)
 
-A Library for streaming Erlang terms into and out of binary streams. This is especially useful when storing large numbers of Erlang terms to file for later retrieval.
+A Library for streaming Erlang terms into and out of binary streams. This is especially useful when storing large numbers of Erlang terms to file for later retrieval. When dealing with large files containing lots of Erlang terms, having to load the entire list into memory can be problematice. Using `TermStream` allows you to stream the terms one at a time out of the file.
 
 ## Example
 

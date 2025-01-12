@@ -23,7 +23,7 @@ defmodule TermStream.MixProject do
 
   defp description do
     """
-    A library for serializing and unserializing Erlang terms to and from a stream.
+    A library for serializing and unserializing Erlang terms to and from a binary stream.
     """
   end
 
