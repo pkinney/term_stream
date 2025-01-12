@@ -10,11 +10,14 @@ A Library for streaming Erlang terms into and out of binary streams. This is esp
 ```elixir
 # To write a stream of terms to a file:
 
-File.stream!("my_file", [:write, :binary])
+file = File.stream!("my_file", [:write, :binary])
+
 other_stream
 |> TermStream.serialize()
-|> Stream.into(file_stream)
+|> Stream.into(file)
 |> Stream.run()
+
+File.close(file)
 
 # The get a stream out of the same file later:
 
