@@ -43,7 +43,8 @@ defmodule TermStream.MixProject do
       {:briefly, "~> 0.5.0", only: :test},
       {:credo, "~> 1.6", only: [:dev], runtime: false},
       {:dialyxir, "~> 1.3", only: [:dev], runtime: false},
-      {:styler, "~> 1.0.0-rc.1", only: [:dev, :test], runtime: false}
+      {:styler, "~> 1.0.0-rc.1", only: [:dev, :test], runtime: false},
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
 
