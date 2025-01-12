@@ -32,6 +32,20 @@ jobs:
             otp: 27
           - elixir: 1.18.x
             otp: 26
+          - elixir: 1.18.x
+            otp: 25
+          - elixir: 1.17.x
+            otp: 27
+          - elixir: 1.17.x
+            otp: 26
+          - elixir: 1.17.x
+            otp: 25
+          - elixir: 1.16.x
+            otp: 27
+          - elixir: 1.16.x
+            otp: 26
+          - elixir: 1.16.x
+            otp: 25
 
     env:
       MIX_ENV: test

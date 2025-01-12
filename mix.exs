@@ -5,7 +5,7 @@ defmodule TermStream.MixProject do
     [
       app: :term_stream,
       version: "0.1.0",
-      elixir: "~> 1.18",
+      elixir: "~> 1.17",
       description: description(),
       package: package(),
       start_permanent: Mix.env() == :prod,
